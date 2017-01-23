@@ -1,0 +1,67 @@
+GIT
+  remote: git://github.com/akhramov/museek_bindings.git
+  revision: d0c84fb3b6b7d63d2abf36a5d2bae8514b3d3d06
+  specs:
+    museek_bindings (0.1.0)
+      simple_enum (~> 2.3.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    coderay (1.1.1)
+    concurrent-ruby (1.0.4)
+    daemons (1.2.4)
+    dotenv (2.1.2)
+    dry-configurable (0.5.0)
+      concurrent-ruby (~> 1.0)
+    em-hiredis (0.3.1)
+      eventmachine (~> 1.0)
+      hiredis (~> 0.6.0)
+    eventmachine (1.2.1)
+    faye-websocket (0.10.5)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    hiredis (0.6.1)
+    i18n (0.7.0)
+    method_source (0.8.2)
+    minitest (5.10.1)
+    permessage_deflate (0.1.3)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rack (2.0.1)
+    simple_enum (2.3.0)
+      activesupport (>= 4.0.0)
+    slop (3.6.0)
+    thin (1.7.0)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    websocket-driver (0.6.4)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv (~> 2.1.2)
+  dry-configurable (~> 0.5.0)
+  em-hiredis (~> 0.3.1)
+  faye-websocket (~> 0.10.5)
+  museek_bindings!
+  permessage_deflate (~> 0.1.3)
+  pry
+  thin (~> 1.7.0)
+
+BUNDLED WITH
+   1.13.7
